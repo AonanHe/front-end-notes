@@ -1,0 +1,24 @@
+{
+  "name": "front-end-notes",
+  "version": "1.0.0",
+  "description": "This is a guide that everyone can use to learn about the practice of front-end development.",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "releases": "/bin/bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AonanHe/front-end-notes.git"
+  },
+  "author": "Aonan He",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AonanHe/front-end-notes/issues"
+  },
+  "homepage": "https://github.com/AonanHe/front-end-notes#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.1.0"
+  }
+}
