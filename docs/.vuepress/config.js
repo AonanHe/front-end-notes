@@ -14,7 +14,24 @@ module.exports = {
     editLinkText: '✏️ Edit this page on GitHub',
     lastUpdated: '📅 Last Updated',
     sidebar: inferSiderbars(),
-    nav: []
+    nav: [
+      {
+        text: '首页',
+        link: '/'
+      },
+      {
+        text: '笔记',
+        link: '/notes/'
+      },
+      {
+        text: '资源',
+        link: '/resources/'
+      },
+      {
+        text: '最近阅读',
+        link: '/reading/'
+      }
+    ]
   }
 }
 
@@ -72,4 +89,3 @@ function inferFiles(dirpath, dirname) {
     )
 }
 
-console.log(JSON.stringify(inferSiderbars()))

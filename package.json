@@ -17,7 +17,6 @@
     "url": "https://github.com/AonanHe/front-end-notes/issues"
   },
   "homepage": "https://github.com/AonanHe/front-end-notes#readme",
-  "dependencies": {},
   "devDependencies": {
     "vuepress": "^1.1.0"
   }
