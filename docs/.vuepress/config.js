@@ -21,7 +21,24 @@ module.exports = {
       },
       {
         text: '笔记',
-        link: '/notes/'
+        items: [
+          {
+            text: '前端',
+            link: '/front-end/',
+          },
+          {
+            text: '运维',
+            link: '/ops/'
+          },
+          {
+            text: '算法与数据结构',
+            link: '/algorithm/'
+          },
+          {
+            text: '开发环境',
+            link: '/environment/'
+          },
+        ]
       },
       {
         text: '资源',
@@ -30,6 +47,10 @@ module.exports = {
       {
         text: '最近阅读',
         link: '/reading/'
+      },
+      {
+        text: '博客',
+        link: 'https://blog.aonan.me'
       }
     ]
   }
