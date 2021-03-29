@@ -16,6 +16,14 @@ const sidebar = [
         dirname: "javascript",
       },
       {
+        title: "性能优化",
+        dirname: "performance",
+      },
+      {
+        title: "NodeJS",
+        dirname: "nodejs",
+      },
+      {
         title: "面向对象",
         dirname: "object",
       },
@@ -24,12 +32,12 @@ const sidebar = [
         dirname: "network",
       },
       {
-        title: "框架",
+        title: "框架与工具",
         dirname: "frame",
       },
       {
-        title: "运行环境",
-        dirname: "environment",
+        title: "浏览器",
+        dirname: "browser",
       },
     ],
   },
