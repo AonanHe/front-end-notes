@@ -56,10 +56,22 @@ const sidebar = [
   {
     title: "最近阅读",
     dirname: "reading",
+    group: [
+      {
+        title: "2021 年",
+        dirname: "2021",
+      },
+    ],
   },
   {
     title: "资源",
     dirname: "resources",
+    group: [
+      {
+        title: "资讯",
+        dirname: "news",
+      },
+    ],
   },
 ];
 
